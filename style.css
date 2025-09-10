@@ -1,0 +1,27 @@
+:root {
+  --color-yellow: hsl(47, 88%, 63%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-grey: hsl(0, 0%, 42%);
+  --color-dark-grey: hsl(0, 0%, 7%);
+  --width-mobile: 375px;
+  --width-desktop: 1440px;
+  --font-bold: 800;
+  --font-normal: 400;
+}
+html {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
