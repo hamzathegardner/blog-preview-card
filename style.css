@@ -90,6 +90,7 @@ figcaption {
 }
 
 .date {
+  display: block;
   margin-top: 12px;
   line-height: 150%;
   letter-spacing: 0px;
