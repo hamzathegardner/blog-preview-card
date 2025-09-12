@@ -7,10 +7,10 @@
   --width-desktop: 1440px;
   --font-bold: 800;
   --font-normal: 400;
-  --font-size-default: 16px;
-  --font-size-1: calc(calc(calc(var(--font-size-default) + 8) / 16px) * 1rem);
-  --font-size-2: calc(calc(var(--font-size-default) / 16px) * 1rem);
-  --font-size-3: calc(calc(calc(var(--font-size-default) - 2) / 16px) * 1rem);
+  --font-size-default: 16;
+  --font-size-1: calc(((var(--font-size-default) + 8) / 16) * 1rem);
+  --font-size-2: calc((var(--font-size-default) / 16) * 1rem);
+  --font-size-3: calc(((var(--font-size-default) - 2) / 16) * 1rem);
 }
 html {
   box-sizing: border-box;
@@ -148,7 +148,7 @@ figcaption {
 
 @media (max-width: 450px) {
   :root {
-    --font-size-default: 14px;
+    --font-size-default: 14;
   }
   article {
     max-width: 327px;
